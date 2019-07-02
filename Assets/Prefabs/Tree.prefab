@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4830979311450124132}
   - component: {fileID: 468885121573547305}
+  - component: {fileID: 8031968861362485499}
+  - component: {fileID: 1966312588517973600}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -45,7 +47,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.01
-  limitRotation: 15
+  direct: 1
+--- !u!114 &8031968861362485499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7323830433254105043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a66d27e48d890141bac2a66a0c699e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &1966312588517973600
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7323830433254105043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.005
+  m_Height: 0.05
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1040480993856333716
 PrefabInstance:
   m_ObjectHideFlags: 0
