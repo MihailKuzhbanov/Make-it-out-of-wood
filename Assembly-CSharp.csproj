@@ -55,8 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\clic.cs" />
-    <Compile Include="Assets\scip.cs" />
+    <Compile Include="Assets\Scripts\clic.cs" />
+    <Compile Include="Assets\Scripts\play.cs" />
+    <Compile Include="Assets\Scripts\scip.cs" />
     <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Shaders\Skybox Cubemap Extended.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Unity/Make it out of wood/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
