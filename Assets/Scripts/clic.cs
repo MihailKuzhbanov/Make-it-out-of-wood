@@ -9,7 +9,7 @@ public class clic : MonoBehaviour
     bool alive = true;
     public int health = 5;
     int count = 0;
-    
+    public GameObject myPrefab;
 
     void Shake(float speed)
     {
@@ -38,7 +38,7 @@ public class clic : MonoBehaviour
         if (count > 10)
         {
             Destroy(gameObject);
-            
+            Instantiate(myPrefab, gameObject.transform.position, Quaternion.identity);
         }
     }
 
