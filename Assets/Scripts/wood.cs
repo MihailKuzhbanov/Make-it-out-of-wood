@@ -18,6 +18,13 @@ public class wood : MonoBehaviour
 
     void OnMouseDown()
     {
+        try {
+            GameObject.Find("mainUI").GetComponentInChildren<mainUI>().WoodCoin++;
+        }
+        catch {
+            print("huiny");
+        };
+
         Destroy(gameObject);
         //add coins
     }
